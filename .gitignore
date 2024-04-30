@@ -1,0 +1,30 @@
+# Ignorar directorios de dependencias
+node_modules/
+bower_components/
+
+# Ignorar archivos de configuración del editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignorar archivos de compilación
+dist/
+build/
+temp/
+
+# Ignorar archivos de mapas de fuente
+*.map
+
+# Ignorar archivos temporales
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignorar archivos específicos que pueden contener información sensible
+.env
+config.js
+
+# Ignorar archivos de sistema operativo
+.DS_Store
+Thumbs.db
